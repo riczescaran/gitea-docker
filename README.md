@@ -12,7 +12,7 @@
 127.0.0.1 gitea.docker
 ```
 
-2. Create `.env` file from `.env.example` and djust the variables to your needs. 
+2. Create `.env` file from `.env.example` and adjust the variables to your needs. 
 
 3. Start the docker container
 
@@ -51,5 +51,5 @@ docker-compose up -d
 5. You can now use ssh to clone. \
 _Note: SSH public key must first be imported into your gitea account on the settings page._
 
-> You can read more about SSH forwarding from the offical website: 
+> You can read more about SSH forwarding from the offical website: \
 > https://docs.gitea.io/en-us/install-with-docker/#ssh-container-passthrough
